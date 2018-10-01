@@ -1,0 +1,22 @@
+msgbox "This program will add two numbers.  To exit, enter 1000 for both numbers."
+
+dim strNumber1
+dim strNumber2
+
+dim intNumber1
+dim intNumber2
+
+Do while (1 = 1)
+   strNumber1 = InputBox( "Enter first number")
+   strNumber2 = InputBox( "Enter second number")
+
+   intNumber1 = cInt(strNumber1)
+   intNumber2 = cInt(strNumber2)
+
+   if intnumber1 = 1000 and intNumber2 = 1000 then
+	wscript.quit
+   end if
+
+   msgbox "The sum is: & (intNumber1 + intNumber2)
+
+Loop

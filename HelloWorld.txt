@@ -1,0 +1,16 @@
+MsgBox( "This program will greet you.  Type 'quit' to quit." )
+
+dim Name
+dim Done
+
+Do While not Done
+
+	Name = InputBox( "What is your name?" )
+	
+	if Name = "quit" then
+		wscript.quit
+	end if
+	
+	msgbox "Hello, " & Name
+
+Loop
